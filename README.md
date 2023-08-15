@@ -1,4 +1,4 @@
-# WorganicTabV1
+# WorganicTabV1 / v5 - Design/form
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
@@ -14,14 +14,46 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Get clone 
+> https://github.com/worganic/TutoTab-St5-create.git
+> npm install
+> cd .\worganic-tab-v1\
+> ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project :
+v5 - Mise en place design form (page:design)
 
-## Running end-to-end tests
+    - Ajout de bootstrap :
+    > npm install --save bootstrap
+    - On ajuste le graphisme :
+        app.component.html app.component.scss design.component.html
+    - Création d'un form complet sans design
+        design -> design.component.html
+        input : 
+            https://codepen.io/Metty/pen/NWpzexj
+        select (option):
+            https://codepen.io/Metty/pen/MWjOavR
+        select option (yes/no)
+            https://codepen.io/scottyzen/pen/ZEWYdZm
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Historique :
+Avant -> V4 : Mise en place de thèmes (CSS : light/dark)
+Après -> v6 : Création d'un jsonServer pour les datas test
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Ressource :
+    - Bootstrap :
+    https://blog.hubspot.com/website/add-bootstrap-to-angular-2
+    - button :
+    https://www.sliderrevolution.com/resources/styling-radio-buttons/
+    - select simple yes-no
+    https://codepen.io/scottyzen/pen/ZEWYdZm
+    - select (option) :
+    https://codepen.io/Metty/pen/MWjOavR
+    - exemple :
+    https://freefrontend.com/css-radio-buttons/
+
+## Abouts
+created by Johann Loreau
+create at 2023/07/29
+Le project évolura suivant les remarques et conseils des visiteurs.
